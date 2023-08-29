@@ -127,10 +127,11 @@
 
 }
 
-.contact-img{
+.contact-img {
     height: 88px;
     width: 88px;
 }
+
 .contact-title {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
@@ -172,9 +173,16 @@
 }
 
 .deal-btn {
-    margin-top: 20px;
-    margin-left: 215px;
-
+    background: #E55473;
+    border-radius: 8px;
+    padding: 20px 43px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    margin-left: 200px;
+   
+   
 }
 
 .flowers {
@@ -198,10 +206,25 @@
     font-weight: 400;
 }
 
-.section-form {
-    margin: 100px 300px;
-    background: url(<path-to-image>), lightgray 0px -203.444px / 100% 213.755% no-repeat;
+.form-container {
+    margin: 100px 600px;
+    position: relative;
+    align-items: center;
+
 }
+
+.form-container img {
+    vertical-align: middle;
+}
+
+.form-container .form-info {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
 
 .form-title {
     color: #272727;
@@ -223,13 +246,13 @@
     border-radius: 8px;
     background: #FFF;
     margin-top: 20px;
-    margin-left: 500px;
+    margin-left: 370px;
     text-align: center;
     font-size: 20px;
     border: 0;
 }
 
-.form-submit {
+.form-btn {
     background: #E55473;
     border-radius: 8px;
     padding: 20px 43px;
@@ -238,7 +261,7 @@
     font-weight: 700;
     border: none;
     margin-bottom: 30px;
-    margin-left: 800px;
+    margin-left: 620px;
     margin-top: 20px;
 }
 
